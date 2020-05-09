@@ -1,0 +1,73 @@
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    min-height: 100%;
+    background-color: #2a2e39;
+    color: #f6fdf0;
+    font-size: 1em;
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+    font-family: 'Indie Flower', cursive;
+}
+
+h2{
+    margin: 0.5em;
+}
+
+#buscar{
+    border: 1px solid  #f6fdf0;
+    width: 80%;
+    margin: 0px auto;
+}
+
+#buscar p{
+    font-size: 0.7em;
+    color:#f03030;
+}
+
+.input{
+  margin-bottom:1em;  
+}
+
+#cancion, #artista{ 
+    border: 1px solid #f6fdf0;
+    background-color: #2a2e39;
+    width: 70%;
+    padding: 0.5em;
+    color:  #f6fdf0;
+  
+  }
+
+.letra-resultado{
+    margin: 3em 0px;
+
+}
+
+#boton-buscar{
+    cursor: pointer;
+    color: #f6fdf0;
+    border: 2px solid #f6fdf0;
+    background-color: #2a2e39;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+#resultado{
+    white-space: pre-wrap;
+    padding: 2rem;
+}
+
+.error {
+    padding: 0.5rem;
+    border: 1px solid red;
+    background-color: rgb(249, 121, 121);
+    color: white;
+    width: 60%;
+    margin: 1em auto;
+}
+
+  
+
